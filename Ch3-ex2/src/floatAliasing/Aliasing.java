@@ -9,13 +9,10 @@ class Shape {
 }
 
 public class Aliasing {
-
     public static void main(String[] args) {
         Shape shape1 = new Shape(3.5f);
         Shape shape2 = shape1;
         shape2.area = 2.0f;
         System.out.println(shape1.area);
-
     }
-
 }
