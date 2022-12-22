@@ -11,11 +11,11 @@ public class Main {
         float distance = Float.parseFloat(br.readLine());
         System.out.println("Enter time");
         float time = Float.parseFloat(br.readLine());
-        if ((time == 0) || (distance == 0)){
-            System.out.println("Ivalid input data");
-            System.exit(1);
+        if (time== 0 && distance == 0){
+            System.out.println("velocity = 0m/s");
         } else {
             float velocity = distance / time;
-            System.out.println(velocity + "m/s");
-        }}
+            System.out.println(velocity + "m/s");}
     }
+}
+
