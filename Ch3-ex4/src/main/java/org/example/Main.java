@@ -13,6 +13,6 @@ public class Main {
         System.out.println("Enter time");
         float time = Float.parseFloat(br.readLine());
         float velocity = distance / time;
-        System.out.println(velocity +"m/s");
+        System.out.println(velocity + "m/s");
     }
 }
