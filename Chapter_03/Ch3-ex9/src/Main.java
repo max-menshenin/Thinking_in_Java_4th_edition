@@ -8,3 +8,9 @@ public class Main {
 		System.out.println("Double.MAX_VALUE = " + Double.MAX_VALUE);
 	}
 }
+
+// Out:
+// Float.MIN_VALUE = 1.4E-45
+// Float.MAX_VALUE = 3.4028235E38
+// Double.MIN_VALUE = 4.9E-324
+// Double.MAX_VALUE = 1.7976931348623157E308
