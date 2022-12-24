@@ -1,4 +1,5 @@
-/* Exercise 7: (3) Write a program that simulates coin-flipping. */
+/* Exercise 8: (2) Show that hex and octal notations work with long values. 
+Use Long.toBinaryString( ) to display the results. */
 
 import java.util.Random;
 
