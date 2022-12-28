@@ -14,7 +14,7 @@ public class Main {
         if (time == 0){
             System.out.println("0m/s" );
         }
-        if (time== 0 && distance == 0){
+        if (time == 0 && distance == 0){
             System.out.println("velocity = 0m/s");
         } else {
             float velocity = distance / time;
